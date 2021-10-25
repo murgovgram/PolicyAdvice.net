@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PolicyAdvice</title>
+  <link rel="stylesheet" href="tailwind.css">
+</head>
+
+<body class="mx-auto bg-white font-Montserrat">
+  <!-- Header -->
+  <div class="grid grid-cols-2 px-4 py-4 shadow-md md:px-24 bg-colorheader">
+    <div class="inline-block">
+      <img class="w-40 " src="/public/build/images/PolicyAdviceLogo.svg" alt="">
+    </div>
+    <div class="flex hidden my-auto md:block md:justify-end ">
+      <ul class="my-auto font-medium cursor-pointer md:flex text-colorTextBlue">
+        <li class="px-5" href="">Best ▾</li>
+        <li class="px-5" href="">Insights ▾</li>
+        <li class="px-5" href="">Reviews ▾</li>
+        <li class="px-5" href="">Guides ▾</li>
+        <li class="px-5" href="">About Us</li>
+      </ul>
+    </div>
+    <div class="flex justify-end block my-auto md:hidden">
+      <svg xmlns="http://www.w3.org/2000/svg" class="w-7 h-7" viewBox="0 0 20 20" fill="currentColor">
+        <path fill-rule="evenodd"
+          d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+          clip-rule="evenodd" />
+      </svg>
+    </div>
+  </div>
+
+
+  <!--Picture Heading-->
+  <div class="my-auto bg-colorheader lg:bg-transparent">
+    <div
+      class="max-w-screen-lg px-4 m-auto mx-auto my-auto text-left text-white bg-colorTextBlue lg:px-0 md:absolute md:py-14 md:mx-24 md:bg-transparent">
+      <h4 class="py-5 font-bold">LIVING YOUR DREAM</h4>
+      <h1 class="py-5 text-3xl font-bold lg:text-6xl">INSURANCE FOR ANY <br> PURPOSE RELIABLE</h1>
+      <p class="pt-5 text-sm font-bold lg:text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Suspendisse viverra,<br>
+        odio nec blandit tempor, risus ex vehicula
+        orci, nec malesuada<br> turpis lacus et sem. Curabitur sodales
+      </p>
+      <div class="py-6 md:py-20 md:mt-20 lg-mx-0">
+        <button
+          class="inline-block px-4 py-3 border-2 rounded-lg shadow-lg hover:bg-transparent hover:text-colorOrange hover:border-colorOrange border-colorOrange bg-colorOrange">
+          <a class="text-2xl font-medium" href="">GET A QUOTE</a>
+        </button>
+        <button
+          class="inline-block px-4 py-3 ml-6 bg-white border-2 rounded-lg shadow-lg text-colorTextBlue hover:border-colorOrange hover:text-colorOrange border-colorTextBlue">
+          <a class="text-2xl font-medium " href="">FIND AN AGENT</a>
+        </button>
+      </div>
+    </div>
+    <img class="hidden object-cover w-full md:block" src="/public/build/images/Family_1.jpg" alt="">
+  </div>
+
+
+  <!--SVG UP Boxses-->
+  <div class="mx-16 mt-8 max-w-screen-2xl md:mt-24 md:mx-auto xl:mx-24 2xl:mx-24 lg:mx-24">
+    <div>
+      <h1 class="mx-4 my-auto mt-8 text-xl font-medium text-center xl:mt-0 lg:mx-40 xl:mx-40 2xl:mx-40 lg:text-4xl">
+        Quick insurance guides - Guide for every insurance you need</h1>
+    </div>
+    <!--First Row-->
+    <div class="gap-2 mx-auto mt-8 xl:flex">
+      <!--Box 1-->
+      <div class="px-16 py-4 mx-auto mt-8 border rounded-lg shadow-2xl md:w-1/4 border-gray-50">
+        <div class="p-6 mx-auto -mt-10 bg-white border rounded-lg shadow-2xl border-gray-50">
+          <svg class="mx-auto" width="90" height="77" viewBox="0 0 75 47" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M63.9806 30.4226C63.9757 31.149 63.685 31.8443 63.1713 32.358C62.6576 32.8716 61.9623 33.1624 61.2359 33.1673H50.1697C49.4431 33.1632 48.7473 32.8727 48.2335 32.3589C47.7196 31.845 47.4291 31.1493 47.425 30.4226C47.4299 29.6962 47.7207 29.0009 48.2344 28.4872C48.748 27.9735 49.4433 27.6828 50.1697 27.6779H61.2359C61.9618 27.6844 62.6562 27.9757 63.1695 28.489C63.6828 29.0023 63.9741 29.6967 63.9806 30.4226ZM25.38 30.4226C25.3759 31.1493 25.0855 31.845 24.5716 32.3589C24.0578 32.8727 23.362 33.1632 22.6353 33.1673H11.5692C10.8425 33.1632 10.1467 32.8727 9.63289 32.3589C9.11904 31.845 8.82855 31.1493 8.82446 30.4226C8.82936 29.6962 9.12011 29.0009 9.63378 28.4872C10.1475 27.9735 10.8427 27.6828 11.5692 27.6779H22.6353C23.3612 27.6836 24.0557 27.9747 24.5687 28.4883C25.0817 29.0019 25.372 29.6967 25.3769 30.4226H25.38ZM19.6411 4.94983H55.21L59.5735 16.0597C59.5049 16.0597 59.4362 16.0472 59.3583 16.0472H15.2745L19.6411 4.94983ZM74.7848 13.3898C74.6043 12.3064 74.0016 11.3388 73.1088 10.6992C72.216 10.0595 71.1059 9.80003 70.0221 9.97764L70.047 9.97452L63.2383 11.0849C63.1385 11.1037 63.0404 11.1308 62.9451 11.166L62.9607 11.1597L58.5754 0H16.2632L11.8779 11.1597C11.7894 11.1292 11.6987 11.1052 11.6066 11.088L4.79161 9.97452C3.7146 9.80539 2.61426 10.0664 1.72795 10.7012C0.841638 11.3361 0.240381 12.2938 0.0538709 13.368L0.050752 13.3929C-0.11921 14.4701 0.14146 15.5708 0.776433 16.4573C1.41141 17.3438 2.36969 17.9449 3.44421 18.1307L3.46916 18.1338L7.43339 18.7857C4.91682 21.2012 3.45902 24.5149 3.37871 28.0023V47H17.1022V39.8263H55.8681V47H69.5917V36.8695C69.6478 36.6325 69.679 36.3611 69.679 36.0804V28.0147C69.6031 24.6526 68.2505 21.4454 65.8957 19.0445L65.8988 19.0476L71.4069 18.1431C72.4895 17.962 73.4561 17.3589 74.0946 16.466C74.7331 15.5732 74.9914 14.4635 74.8128 13.3804L74.816 13.4054L74.7848 13.3898Z"
+              fill="#0F5499" />
+          </svg>
+        </div>
+        <h2 class="py-6 text-lg font-medium text-center text-colorTextBlue">Car Insurance
+        </h2>
+      </div>
+      <!--Box 2-->
+      <div class="px-16 py-4 mx-auto mt-8 border rounded-lg shadow-2xl md:w-1/4 border-gray-50">
+        <div class="p-6 mx-auto -mt-10 bg-white border rounded-lg shadow-2xl border-gray-50">
+          <svg class="mx-auto" width="90" height="77" viewBox="0 0 51 51" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M51 14.3438C51 16.2695 50.4189 18.8345 49.2568 22.0386C48.0947 25.2427 46.5342 28.3389 44.5752 31.3271C43.4131 33.1533 42.4917 34.5894 41.811 35.6353C41.1304 36.6812 40.2422 37.9927 39.1465 39.5698C38.0508 41.147 37.1211 42.4004 36.3574 43.3301C35.5938 44.2598 34.7056 45.2725 33.6929 46.3682C32.6802 47.4639 31.7588 48.3105 30.9287 48.9082C30.0986 49.5059 29.2104 50.0039 28.2642 50.4023C27.3179 50.8008 26.3965 51 25.5 51C24.6035 51 23.6821 50.7925 22.7358 50.3774C21.7896 49.9624 20.9014 49.4561 20.0713 48.8584C19.2412 48.2607 18.3115 47.4058 17.2822 46.2935C16.2529 45.1812 15.3564 44.1602 14.5928 43.2305C13.8291 42.3008 12.8994 41.0474 11.8037 39.4702C10.708 37.8931 9.81982 36.5898 9.13916 35.5605C8.4585 34.5312 7.55371 33.1201 6.4248 31.3271C4.36621 28.1729 2.78076 25.0435 1.66846 21.939C0.556152 18.8345 0 16.3027 0 14.3438C0 10.3926 1.40283 7.01416 4.2085 4.2085C7.01416 1.40283 10.3926 0 14.3438 0C16.5684 0 18.6436 0.473145 20.5693 1.41943C22.4951 2.36572 24.1387 3.66895 25.5 5.3291C26.8281 3.66895 28.4634 2.36572 30.4058 1.41943C32.3481 0.473145 34.4316 0 36.6562 0C40.6074 0 43.9858 1.40283 46.7915 4.2085C49.5972 7.01416 51 10.3926 51 14.3438ZM36.6562 6.375C35.2949 6.375 33.8838 6.84814 32.4229 7.79443C30.9619 8.74072 29.7168 9.86133 28.6875 11.1562C28.5879 11.2891 28.397 11.5879 28.1147 12.0527C27.8325 12.5176 27.6001 12.8911 27.4175 13.1733C27.2349 13.4556 26.9609 13.7212 26.5957 13.9702C26.2305 14.2192 25.8652 14.3438 25.5 14.3438C25.1348 14.3438 24.7695 14.2192 24.4043 13.9702C24.0391 13.7212 23.7651 13.4639 23.5825 13.1982C23.3999 12.9326 23.1592 12.5591 22.8604 12.0776C22.5615 11.5962 22.3789 11.2891 22.3125 11.1562C21.2832 9.86133 20.0381 8.74072 18.5771 7.79443C17.1162 6.84814 15.7051 6.375 14.3438 6.375C12.1523 6.375 10.2764 7.15527 8.71582 8.71582C7.15527 10.2764 6.375 12.1523 6.375 14.3438C6.20898 16.3691 6.74023 18.8594 7.96875 21.8145C9.19727 24.7695 10.791 27.6914 12.75 30.5801C13.3477 31.4766 14.0864 32.6221 14.9663 34.0166C15.8462 35.4111 16.5601 36.5317 17.1079 37.3784C17.6558 38.2251 18.3115 39.1631 19.0752 40.1924C19.8389 41.2217 20.5278 42.0186 21.1421 42.583C21.7563 43.1475 22.4453 43.6289 23.209 44.0273C23.9727 44.4258 24.7363 44.625 25.5 44.625C26.2637 44.625 27.0273 44.4341 27.791 44.0522C28.5547 43.6704 29.2354 43.1973 29.833 42.6328C30.4307 42.0684 31.1113 41.2715 31.875 40.2422C32.6387 39.2129 33.2944 38.2749 33.8423 37.4282C34.3901 36.5815 35.1123 35.4609 36.0088 34.0664L38.25 30.5801C40.209 27.6914 41.8027 24.7695 43.0312 21.8145C44.2598 18.8594 44.791 16.3691 44.625 14.3438C44.625 12.1523 43.8447 10.2764 42.2842 8.71582C40.7236 7.15527 38.8477 6.375 36.6562 6.375Z"
+              fill="#0F5499" />
+          </svg>
+        </div>
+        <h2 class="py-6 text-lg font-medium text-center text-colorTextBlue">Life Insurance
+        </h2>
+      </div>
+      <!--Box 3-->
+      <div class="px-16 py-4 mx-auto mt-8 border rounded-lg shadow-2xl md:w-1/4 border-gray-50">
+        <div class="p-6 mx-auto -mt-10 bg-white border rounded-lg shadow-2xl border-gray-50">
+          <svg class="mx-auto" width="90" height="77" viewBox="0 0 44 55" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M17.875 30.2499H11V22H17.875V15.125H26.1249V22H32.9999V30.2499H26.1249V37.1249H17.875V30.2499ZM22 0L0 8.24998V24.9974C0 38.8849 9.37748 51.8374 22 54.9999C34.6224 51.8374 43.9999 38.8849 43.9999 24.9974V8.24998L22 0ZM38.4999 24.9974C38.4999 35.9974 31.4874 46.1724 22 49.2799C12.5125 46.1724 5.49999 36.0249 5.49999 24.9974V12.0725L22 5.88499L38.4999 12.0725V24.9974Z"
+              fill="#0F5499" />
+          </svg>
+        </div>
+        <h2 class="py-6 text-lg font-medium text-center text-colorTextBlue">Health Insurance
+        </h2>
+      </div>
+      <!--Box 4-->
+      <div class="px-16 py-4 mx-auto mt-8 border rounded-lg shadow-2xl md:w-1/4 border-gray-50">
+        <div class="p-6 mx-auto -mt-10 bg-white border rounded-lg shadow-2xl border-gray-50">
+          <svg class="mx-auto" width="90" height="77" viewBox="0 0 49 50" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M38.625 49.8252L42.6751 45.7752L36.6 19.4501L47.7376 8.31259C48.5432 7.507 48.9958 6.41437 48.9958 5.27508C48.9957 4.1358 48.5432 3.04317 47.7376 2.23757C46.932 1.43197 45.8393 0.979393 44.7001 0.979393C43.5608 0.979392 42.4681 1.43197 41.6625 2.23757L30.525 13.3751L4.19991 7.30009L0.149897 11.3501L21.4125 22.4876L10.2749 33.6252L3.18741 32.6127L0.149899 35.6502L9.26243 40.7127L14.325 49.8252L17.3625 46.7877L16.35 39.7002L27.4875 28.5627L38.625 49.8252Z"
+              fill="#0F5499" />
+          </svg>
+        </div>
+        <h2 class="py-6 text-lg font-medium text-center text-colorTextBlue">Travel Insurance
+        </h2>
+      </div>
+    </div>
+    <!--Second Row-->
+    <div class="gap-8 mt-8 xl:mx-32 xl:flex">
+      <!--Box 1-->
+      <div class="px-16 py-4 mx-auto mt-8 border rounded-lg shadow-2xl md:w-1/3 border-gray-50">
+        <div class="p-6 mx-auto -mt-10 bg-white border rounded-lg shadow-2xl border-gray-50">
+          <svg class="mx-auto" width="90" height="77" viewBox="0 0 55 56" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M2.74946 30.2511H5.49951V49.5014C5.49951 52.5347 7.9663 55.0015 10.9996 55.0015H44.0002C47.0335 55.0015 49.5002 52.5347 49.5002 49.5014V30.2511H52.2503C52.7941 30.251 53.3257 30.0896 53.7778 29.7874C54.23 29.4852 54.5824 29.0558 54.7904 28.5533C54.9985 28.0509 55.053 27.4981 54.9469 26.9647C54.8409 26.4313 54.5791 25.9413 54.1946 25.5567L29.4442 0.806317C29.189 0.550712 28.8859 0.347929 28.5523 0.209572C28.2187 0.0712154 27.8611 0 27.4999 0C27.1387 0 26.7811 0.0712154 26.4475 0.209572C26.1138 0.347929 25.8108 0.550712 25.5556 0.806317L0.805178 25.5567C0.420695 25.9413 0.158873 26.4313 0.0528105 26.9647C-0.0532521 27.4981 0.00120714 28.0509 0.209303 28.5533C0.417399 29.0558 0.769789 29.4852 1.22192 29.7874C1.67406 30.0896 2.20564 30.251 2.74946 30.2511ZM21.9998 49.5014V35.7512H33V49.5014H21.9998ZM27.4999 6.63917L44.0002 23.1394V35.7512L44.0029 49.5014H38.5001V35.7512C38.5001 32.7179 36.0333 30.2511 33 30.2511H21.9998C18.9665 30.2511 16.4997 32.7179 16.4997 35.7512V49.5014H10.9996V23.1394L27.4999 6.63917Z"
+              fill="#0F5499" />
+          </svg>
+        </div>
+        <h2 class="py-6 text-lg font-medium text-center text-colorTextBlue">Home Insurance
+        </h2>
+      </div>
+      <!--Box 2-->
+      <div class="px-16 py-4 mx-auto mt-8 border rounded-lg shadow-2xl md:w-1/3 border-gray-50">
+        <div class="p-6 mx-auto -mt-10 bg-white border rounded-lg shadow-2xl border-gray-50">
+          <svg class="mx-auto" width="90" height="77" viewBox="0 0 62 55" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M33.6111 39.7222H27.5C25.8194 39.7222 24.4444 38.3472 24.4444 36.6667H3.08611V48.8889C3.08611 52.25 5.83611 55 9.19722 55H51.9444C55.3056 55 58.0556 52.25 58.0556 48.8889V36.6667H36.6667C36.6667 38.3472 35.2917 39.7222 33.6111 39.7222ZM55 12.2222H42.7778C42.7778 5.46944 37.3083 0 30.5556 0C23.8028 0 18.3333 5.46944 18.3333 12.2222H6.11111C2.75 12.2222 0 14.9722 0 18.3333V27.5C0 30.8917 2.71944 33.6111 6.11111 33.6111H24.4444V30.5556C24.4444 28.875 25.8194 27.5 27.5 27.5H33.6111C35.2917 27.5 36.6667 28.875 36.6667 30.5556V33.6111H55C58.3611 33.6111 61.1111 30.8611 61.1111 27.5V18.3333C61.1111 14.9722 58.3611 12.2222 55 12.2222ZM24.4444 12.2222C24.4444 8.86111 27.1944 6.11111 30.5556 6.11111C33.9167 6.11111 36.6667 8.86111 36.6667 12.2222H24.4139H24.4444Z"
+              fill="#0F5499" />
+          </svg>
+        </div>
+        <h2 class="py-6 text-lg font-medium text-center text-colorTextBlue">Business Insurance
+        </h2>
+      </div>
+      <!--Box 3-->
+      <div class="px-16 py-4 mx-auto mt-8 border rounded-lg shadow-2xl md:w-1/3 border-gray-50">
+        <div class="p-6 mx-auto -mt-10 bg-white border rounded-lg shadow-2xl border-gray-50">
+          <svg class="mx-auto" width="90" height="77" viewBox="0 0 47 54" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M23.4777 23.4329C26.7693 23.4329 29.5326 25.6632 30.3132 28.6789C31.2946 32.46 31.1619 36.6038 35.4759 38.7555C39.3051 40.0585 40.7537 41.6961 40.7537 46.0864C40.7537 49.5904 37.7556 53.3151 33.89 53.78C29.5678 54.4291 26.2035 53.5804 23.4765 52.0262C20.7496 53.5804 17.3841 54.4303 13.0678 53.78C9.19983 53.3151 6.20292 49.5775 6.20292 46.0864C6.20292 41.79 7.74892 39.9716 11.5711 38.7261C16.2748 36.3232 15.6433 32.1113 16.6927 28.4934C17.1241 27.0296 18.0186 25.745 19.242 24.8326C20.4653 23.9202 21.9516 23.429 23.4777 23.4329ZM45.0266 20.8222C43.8609 19.8091 39.1032 23.7639 37.6065 25.7196C36.6968 26.7632 36.1309 28.1976 36.1309 29.78C36.1309 32.9624 38.4083 35.5426 41.2103 35.5426C43.3421 35.5426 45.1663 34.06 45.9211 31.9517C47.3873 28.1601 47.4683 22.9422 45.0266 20.8222ZM1.92648 20.8222C-0.511661 22.9422 -0.433011 28.1601 1.03551 31.9517C1.79031 34.06 3.61335 35.5426 5.74394 35.5426C8.54833 35.5426 10.8233 32.9624 10.8233 29.78C10.8233 28.1976 10.2587 26.7632 9.34892 25.7196C7.85105 23.7639 3.09449 19.8091 1.92648 20.8222ZM29.7404 0.0362892C41.5824 2.04597 40.7513 21.9902 31.2699 20.3831C28.5348 19.9183 26.504 17.4273 26.1952 14.4515C25.8818 11.4253 25.1763 -0.736123 29.7404 0.0362892ZM17.2151 0.0362892C21.7803 -0.737297 21.0736 11.4241 20.7602 14.4503C20.4515 17.4273 18.423 19.9171 15.6879 20.382C6.2041 21.9913 5.37417 2.04597 17.2151 0.0362892Z"
+              fill="#0F5499" />
+          </svg>
+        </div>
+        <h2 class="py-6 text-lg font-medium text-center text-colorTextBlue">Pets Insurance
+        </h2>
+      </div>
+    </div>
+  </div>
+
+
+  <!--Get My Rates-->
+  <div
+    class="grid mx-4 mt-8 text-center border shadow-xl max-w-screen-2xl md:mt-32 md:grid-cols-2 border-gray-50 md:mx-auto xl:mx-56 2xl:mx-56 lg:mx-56">
+    <div class="px-6 py-12 my-auto text-left bg-white">
+      <h1 class="text-4xl font-medium">See what you can save on car ensurance</h1>
+      <p class="mt-10 text-sm mr-28">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+        viverra,
+        odio nec blandit tempor.</p>
+    </div>
+    <div class="px-6 py-20 my-auto text-left bg-gray-50">
+      <p class="ml-2">Zip Code</p>
+      <input class="w-full p-2 mt-3 border border-gray-100 rounded-md shadow-xl" placeholder="Type Here" type="email">
+      <button
+        class="w-full mt-4 text-white rounded-md shadow-xl hover:bg-white hover:text-colorOrange focus:outline-none bg-colorOrange">
+        <p class="py-3 mx-auto font-medium uppercase">Get my rates</p>
+      </button>
+    </div>
+  </div>
+
+
+  <!--Best Pages-->
+  <div class="mx-4 mt-8 max-w-screen-2xl md:mt-32 md:mx-56">
+    <h1 class="pb-8 text-3xl font-medium text-left">Best pages for insurance</h1>
+    <div class="grid gap-3 md:grid-cols-4">
+      <div class="relative w-full p-3 rounded-md shadow-lg bg-colorLightblue md:col-span-1 h-72">
+        <h1 class="mt-8 text-lg font-bold uppercase">Car Insurance</h1>
+        <p class="mt-3 font-extralight">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Vestibulum dolor sem.</p>
+        <div class="absolute bottom-2 right-2">
+          <button
+            class="px-6 py-2 font-medium text-white rounded-md focus:outline-none bg-colorOrange hover:bg-white hover:text-colorOrange">
+            <h1 class="">Read More</h1>
+          </button>
+        </div>
+      </div>
+      <div class="relative w-full p-3 bg-gray-100 rounded-md shadow-lg md:col-span-2 h-72">
+        <h1 class="mt-8 text-lg font-bold uppercase">HEALTH Insurance</h1>
+        <p class="mt-3 font-extralight">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Vestibulum dolor sem.</p>
+        <div class="absolute bottom-2 right-2">
+          <button
+            class="px-6 py-2 font-medium text-white rounded-md focus:outline-none bg-colorOrange hover:bg-white hover:text-colorOrange">
+            <h1 class="">Read More</h1>
+          </button>
+        </div>
+      </div>
+      <div class="relative w-full h-auto p-3 bg-local rounded-md shadow-lg md:row-span-2 "
+        style="background-image: url(images/WaterFalls.jpg)">
+        <h1 class="mt-8 text-2xl font-bold text-white">Life Insurance</h1>
+        <p class="mt-3 text-white font-extralight">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Vestibulum dolor sem.</p>
+        <div class="absolute bottom-2 right-2">
+          <button
+            class="px-6 py-2 font-medium text-white rounded-md focus:outline-none bg-colorOrange hover:bg-white hover:text-colorOrange">
+            <h1 class="">Read More</h1>
+          </button>
+        </div>
+      </div>
+      <div class="relative w-full p-3 bg-yellow-200 rounded-md shadow-lg md:col-span-2 h-72"
+        style="background-image: url(images/CanoeBoat.jpg)">
+        <h1 class="mt-8 text-2xl font-bold text-white">Travel Insurance</h1>
+        <p class="mt-3 text-white font-extralight">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Vestibulum dolor sem.</p>
+        <div class="absolute bottom-2 right-2">
+          <button
+            class="px-6 py-2 font-medium text-white rounded-md focus:outline-none bg-colorOrange hover:bg-white hover:text-colorOrange">
+            <h1 class="">Read More</h1>
+          </button>
+        </div>
+      </div>
+      <div class="relative w-full p-3 rounded-md shadow-lg bg-colorLightblue md:col-span-1 h-72">
+        <h1 class="mt-8 text-2xl font-bold text-gray-700">Pet Insurance</h1>
+        <p class="mt-3 font-extralight">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Vestibulum dolor sem.</p>
+        <div class="absolute bottom-2 right-2">
+          <button
+            class="px-6 py-2 font-medium text-white rounded-md focus:outline-none bg-colorOrange hover:bg-white hover:text-colorOrange">
+            <h1 class="">Read More</h1>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!--Boxses with Review-->
+  <div class="mx-4 mt-8 max-w-screen-2xl md:mt-32 md:mx-auto xl:mx-56 2xl:mx-56 lg:mx-56">
+    <h1 class="pb-8 text-3xl font-medium text-left">Insurance Review</h1>
+    <div class="grid gap-8 md:grid-cols-12">
+      <!--Box 1-->
+      <div class="col-span-4 rounded-lg shadow-lg hover:bg-yellow-100">
+        <img class="w-full rounded-t-lg h-2/5" src="images/Car1.jpg" alt="">
+        <div class="py-1 bg-colorStrongblue"></div>
+        <p class="px-4 mt-8 font-medium">Car Insurance</p>
+        <h2 class="px-4 mt-4 text-lg font-bold text-colorTextBlue">Boost your conversion rate<br><br></h2>
+        <p class="px-4 py-2 mt-2 text-sm text-gray-600">Even if your customers are happy, only a few of them are likely
+          to take the trouble to give your recommendations.</p>
+        <div class="flex px-4 my-auto">
+          <img class="inline-block w-12 h-12 border-2 border-gray-300 rounded-full" src="images/PolicyAdviceLogo.svg"
+            alt="">
+          <div class="inline-block my-auto ml-3">
+            <h4 class="font-medium">Smiljanic Stasha</h4>
+            <p class="text-xs font-light text-gray-600">Updated Mar 24, 2021</p>
+          </div>
+        </div>
+      </div>
+      <!--Box 2-->
+      <div class="col-span-4 rounded-lg shadow-lg hover:bg-yellow-100">
+        <img class="w-full rounded-t-lg h-2/5" src="images/Girl.jpg" alt="">
+        <div class="py-1 bg-colorStrongblue"></div>
+        <p class="px-4 mt-8 font-medium">Health Insurance</p>
+        <h2 class="px-4 mt-4 text-lg font-bold text-colorTextBlue">How to use search engine optimization</h2>
+        <p class="px-4 py-2 mt-2 text-sm text-gray-600">Even if your customers are happy, only a few of them are likely
+          to take the trouble to give your recommendations.</p>
+        <div class="flex px-4 my-auto">
+          <img class="inline-block w-12 h-12 border-2 border-gray-300 rounded-full" src="images/PolicyAdviceLogo.svg"
+            alt="">
+          <div class="inline-block my-auto ml-3">
+            <h4 class="font-medium">Smiljanic Stasha</h4>
+            <p class="text-xs font-light text-gray-600">Updated Mar 24, 2021</p>
+          </div>
+        </div>
+      </div>
+      <!--Box 3-->
+      <div class="col-span-4 rounded-lg shadow-lg hover:bg-yellow-100">
+        <img class="w-full rounded-t-lg h-2/5" src="images/ManMountain.jpg" alt="">
+        <div class="py-1 bg-colorStrongblue"></div>
+        <p class="px-4 mt-8 font-medium">Travel Insurance</p>
+        <h2 class="px-4 mt-4 text-lg font-bold text-colorTextBlue">Improve your customer experience</h2>
+        <p class="px-4 py-2 mt-2 text-sm text-gray-600">Even if your customers are happy, only a few of them are likely
+          to take the trouble to give your recommendations.</p>
+        <div class="flex px-4 my-auto">
+          <img class="inline-block w-12 h-12 border-2 border-gray-300 rounded-full" src="images/PolicyAdviceLogo.svg"
+            alt="">
+          <div class="inline-block my-auto ml-3">
+            <h4 class="font-medium">Smiljanic Stasha</h4>
+            <p class="text-xs font-light text-gray-600">Updated Mar 24, 2021</p>
+          </div>
+        </div>
+      </div>
+      <!--Box 4-->
+      <div class="col-span-4 rounded-lg shadow-lg hover:bg-yellow-100">
+        <img class="w-full rounded-t-lg h-2/5" src="images/ManMountain2.jpg" alt="">
+        <div class="py-1 bg-colorStrongblue"></div>
+        <p class="px-4 mt-8 font-medium">Life Insurance</p>
+        <h2 class="px-4 mt-4 text-lg font-bold text-colorTextBlue">Boost your conversion rate<br><br></h2>
+        <p class="px-4 py-2 mt-2 text-sm text-gray-600">Even if your customers are happy, only a few of them are likely
+          to take the trouble to give your recommendations.</p>
+        <div class="flex px-4 my-auto">
+          <img class="inline-block w-12 h-12 border-2 border-gray-300 rounded-full" src="images/PolicyAdviceLogo.svg"
+            alt="">
+          <div class="inline-block my-auto ml-3">
+            <h4 class="font-medium">Smiljanic Stasha</h4>
+            <p class="text-xs font-light text-gray-600">Updated Mar 24, 2021</p>
+          </div>
+        </div>
+      </div>
+      <!--Box 5-->
+      <div class="col-span-4 rounded-lg shadow-lg hover:bg-yellow-100">
+        <img class="w-full rounded-t-lg h-2/5" src="images/House1.jpg" alt="">
+        <div class="py-1 bg-colorStrongblue"></div>
+        <p class="px-4 mt-8 font-medium">Business Insurance</p>
+        <h2 class="px-4 mt-4 text-lg font-bold text-colorTextBlue">How to use search engine optimization</h2>
+        <p class="px-4 py-2 mt-2 text-sm text-gray-600">Even if your customers are happy, only a few of them are likely
+          to take the trouble to give your recommendations.</p>
+        <div class="flex px-4 my-auto">
+          <img class="inline-block w-12 h-12 border-2 border-gray-300 rounded-full" src="images/PolicyAdviceLogo.svg"
+            alt="">
+          <div class="inline-block my-auto ml-3">
+            <h4 class="font-medium">Smiljanic Stasha</h4>
+            <p class="text-xs font-light text-gray-600">Updated Mar 24, 2021</p>
+          </div>
+        </div>
+      </div>
+      <!--Box 6-->
+      <div class="col-span-4 rounded-lg shadow-lg hover:bg-yellow-100">
+        <img class="w-full rounded-t-lg h-2/5" src="images/Cat.jpg" alt="">
+        <div class="py-1 bg-colorStrongblue"></div>
+        <p class="px-4 mt-8 font-medium">Pets Insurance</p>
+        <h2 class="px-4 mt-4 text-lg font-bold text-colorTextBlue">Improve your customer experience</h2>
+        <p class="px-4 py-2 mt-2 text-sm text-gray-600">Even if your customers are happy, only a few of them are likely
+          to take the trouble to give your recommendations.</p>
+        <div class="flex px-4 my-auto">
+          <img class="inline-block w-12 h-12 border-2 border-gray-300 rounded-full" src="images/PolicyAdviceLogo.svg"
+            alt="">
+          <div class="inline-block my-auto ml-3">
+            <h4 class="font-medium">Smiljanic Stasha</h4>
+            <p class="text-xs font-light text-gray-600">Updated Mar 24, 2021</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!--News tips & tricks-->
+  <div class="mx-4 mt-8 max-w-screen-2xl md:mt-32 md:mx-auto xl:mx-56 2xl:mx-56 lg:mx-56">
+    <h1 class="pb-8 text-3xl font-medium text-left">News tips & tricks</h1>
+    <div class="grid gap-8 md:grid-cols-12">
+      <div class="relative col-span-7 rounded-lg shadow-md h-96"
+        style="background-image: url(images/SigningApaper.jpg);">
+        <div class="absolute bottom-0 w-full px-4 py-6 bg-white opacity-80">
+          <p class="text-sm text-colorTextBlue">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+            pretium metus erat, eu finibus
+            purus mollis ut. Nam
+            elementum rutrum ligula quis mattis. Proin pretium posuere ligula, feugiat gravida dui bibendum nec.</p>
+        </div>
+        <h1 class="absolute px-12 py-2 font-bold text-white opacity-100 md:bottom-28 bottom-32 bg-colorOrange">Insurance
+        </h1>
+      </div>
+      <div class="col-span-5 ">
+        <div class="relative rounded-lg shadow-md h-44" style="background-image: url(images/Dogs.jpg);">
+          <div class="absolute bottom-0 w-full px-4 py-3 bg-white opacity-80">
+            <h1 class="text-sm font-medium text-colorTextBlue">Pet Insurance</h1>
+          </div>
+        </div>
+        <div class="relative mt-8 rounded-lg shadow-md h-44" style="background-image: url(images/ManOnAPhone.jpg);">
+          <div class="absolute bottom-0 w-full px-4 py-3 bg-white opacity-80">
+            <h1 class="text-sm font-medium text-colorTextBlue">Health Insurance</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="grid gap-8 mt-8 md:grid-cols-2">
+      <div class="relative rounded-lg shadow-md h-60" style="background-image: url(images/House2.jpg);">
+        <div class="absolute bottom-0 w-full px-4 py-3 bg-white opacity-80">
+          <h1 class="text-sm font-medium text-colorTextBlue">Home Insurance</h1>
+        </div>
+      </div>
+      <div class="relative rounded-lg shadow-md h-60" style="background-image: url(images/Car2.jpg);">
+        <div class="absolute bottom-0 w-full px-4 py-3 bg-white opacity-80">
+          <h1 class="text-sm font-medium text-colorTextBlue">Car Insurance</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!--Faq-->
+  <div class="mt-8 md:mt-16 bg-gray-50">
+    <div class="grid gap-12 py-24 mx-4 md:grid-cols-12 md:mx-auto xl:mx-56 2xl:mx-56 lg:mx-56">
+      <div class="col-span-5 my-auto">
+        <h1 class="text-4xl font-bold ">Frequenlty asked question</h1>
+        <p class="mt-8 text-lg">You boil the hell out of it. Lorem ipsum dolor sit
+          amet. Sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+      </div>
+      <div class="col-span-7 my-auto">
+        <div class="flex">
+          <h1 class="inline-block text-xl font-bold">What is the best thing about Switzerland?</h1>
+          <svg class="inline-block mx-8 my-auto" width="28" height="28" viewBox="0 0 28 28" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <circle cx="14" cy="14" r="14" fill="#0F5499" />
+            <path d="M8 12L14 18L20 12L8 12Z" fill="white" />
+          </svg>
+        </div>
+        <div class="flex py-8">
+          <h1 class="inline-block text-xl font-bold">What is the best thing about Switzerland?</h1>
+          <svg class="inline-block mx-8 my-auto" width="28" height="28" viewBox="0 0 28 28" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <circle cx="14" cy="14" r="14" fill="#0F5499" />
+            <path d="M8 12L14 18L20 12L8 12Z" fill="white" />
+          </svg>
+        </div>
+        <div class="flex ">
+          <h1 class="inline-block text-xl font-bold">What is the best thing about Switzerland?</h1>
+          <svg class="inline-block mx-8 my-auto" width="28" height="28" viewBox="0 0 28 28" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <circle cx="14" cy="14" r="14" fill="#0F5499" />
+            <path d="M8 12L14 18L20 12L8 12Z" fill="white" />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!--Footer-->
+  <div class="bg-colorTextBlue">
+    <div class="grid py-6 mx-4 md:grid-cols-12 md:mx-auto xl:mx-40 2xl:mx-40 lg:mx-40">
+      <div class="col-span-2">
+        <ul class="text-white">
+          <p class="py-3 font-bold uppercase">SOLUTIONS</p>
+          <li class="py-2">Marketing</li>
+          <li class="py-2">Analytics</li>
+          <li class="py-2">Commerce</li>
+          <li class="py-2">Insight</li>
+        </ul>
+      </div>
+      <div class="col-span-2">
+        <ul class="text-white">
+          <p class="py-3 font-bold uppercase">SUPPORT</p>
+          <li class="py-2">Marketing</li>
+          <li class="py-2">Analytics</li>
+          <li class="py-2">Commerce</li>
+          <li class="py-2">Insight</li>
+        </ul>
+      </div>
+      <div class="col-span-2">
+        <ul class="text-white">
+          <p class="py-3 font-bold uppercase">COMPANY</p>
+          <li class="py-2">Marketing</li>
+          <li class="py-2">Analytics</li>
+          <li class="py-2">Commerce</li>
+          <li class="py-2">Insight</li>
+        </ul>
+      </div>
+      <div class="col-span-2">
+        <ul class="text-white">
+          <p class="py-3 font-bold uppercase">LEGAL</p>
+          <li class="py-2">Marketing</li>
+          <li class="py-2">Analytics</li>
+          <li class="py-2">Commerce</li>
+          <li class="py-2">Insight</li>
+        </ul>
+      </div>
+      <div class="col-span-4">
+        <h1 class="py-10 text-xl font-bold text-white uppercase md:py-3">SUBSCRIBE TO OUR NEWSLETTER</h1>
+        <p class="text-white">The latest news, articles and resources, sent to your inbox weekly.</p>
+        <div class="flex gap-2 mt-3">
+          <input class="inline-block w-full px-2 py-3 rounded-md focus:outline-none" placeholder="Enter Your Email"
+            type="text">
+          <button class="inline-block px-4 py-3 text-white rounded-md bg-colorOrange bg-bluebottom">
+            <p>SUBSCRIBE</p>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="flex justify-end py-3 mx-40 mt-8 border-t-2 border-white opacity-60">
+      <svg class="inline-block w-10 mx-2" role="img" fill="#FFFFFF" xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24">
+        <title>Facebook icon</title>
+        <path
+          d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+      </svg>
+      <svg class="inline-block w-10 mx-2" role="img" fill="#FFFFFF" xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24">
+        <title>Twitter icon</title>
+        <path
+          d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z" />
+      </svg>
+      <svg class="inline-block w-10 mx-2" role="img" fill="#FFFFFF" viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg">
+        <title>LinkedIn icon</title>
+        <path
+          d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+      </svg>
+    </div>
+  </div>
+</body>
+
+</html>
